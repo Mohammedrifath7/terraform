@@ -1,6 +1,8 @@
 # <<<<<<< HEAD
 provider "aws"{
     region = "ap-south-1"
+    access_key = "AKIA2KIVE7U7BPBG3WPK"
+    secret_key = "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"
     alias = "env"
 }
 resource "aws_vpc" "my_vpc"{

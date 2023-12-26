@@ -1,6 +1,7 @@
 # <<<<<<< HEAD
 provider "aws"{
-
+    access_key = "AKIATBGTQCKU3VY5FY7A"
+    secret_key = "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" 
     region = "ap-south-1"
     alias = "env"
 }

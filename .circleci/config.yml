@@ -22,7 +22,8 @@ jobs:
       - run:
           name: Apply Terraform Changes
           command: |
-            terraform apply -auto-approve tfplan
+            terraform apply -auto-approve tfplan  
+            
 workflows:
   version: 2
   build:
